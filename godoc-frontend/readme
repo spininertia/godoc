@@ -1,0 +1,9 @@
+Dependency
+==========
+npm install
+
+Run
+==========
+foreman install
+
+now go to http://localhost:5000

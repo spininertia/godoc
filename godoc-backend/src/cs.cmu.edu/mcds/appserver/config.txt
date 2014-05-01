@@ -1,0 +1,4 @@
+localhost:7770 localhost:7771 localhost:7772
+localhost:8770 localhost:8771 localhost:8772
+localhost:9770 localhost:9771 localhost:9772
+cmacslab3.modck.cs.cmu.edu:4770 cmacslab3.modck.cs.cmu.edu:4771 cmacslab3.modck.cs.cmu.edu:4772

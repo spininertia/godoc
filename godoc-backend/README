@@ -1,0 +1,26 @@
+Godoc
+==========
+Minimal google-doc like code editor. 
+
+Code structure
+----------
+
+
+Test
+----------
+* Paxos: in paxos/ directory, run `go test`. To see additional benchmark, run `go test -bench=.`
+
+Credit
+----------
+This project relies on many excellent open source projects, here is the list:
+* express, web app framework in nodejs.
+* bootstrap, css tooklit.
+* ot, nodejs operational transformation library.
+* ot-demo, prototype front end(centralized). Godoc-forntend extends it.
+* socket.io, websocket for nodejs.
+* code mirror, text editor component.
+
+
+Wei  Chen  (weichen1@andrew.cmu.edu)
+Siping Ji  (sipingji@cmu.edu)
+10 April, 2014
