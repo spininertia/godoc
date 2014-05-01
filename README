@@ -4,6 +4,20 @@ Minimal google-doc like code editor.
 
 Code structure
 ----------
+.
+├── README
+├── godoc-backend // backend storeage server
+│ ├── README
+│ └── src
+│     ├── cs.cmu.edu
+│     │ └── mcds
+│     │     ├── appserver
+│     │     ├── config
+│     │     ├── paxos // paxos implementation
+│     │     ├── recover // recover worker
+│     │     ├── rpc
+│     │     └── test_recover.sh
+└── godoc-frontend
 
 
 Test
@@ -19,6 +33,8 @@ This project relies on many excellent open source projects, here is the list:
 * ot-demo, prototype front end(centralized). Godoc-forntend extends it.
 * socket.io, websocket for nodejs.
 * code mirror, text editor component.
+* jQuery
+* bower
 
 
 Wei  Chen  (weichen1@andrew.cmu.edu)
